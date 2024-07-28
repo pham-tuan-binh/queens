@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BinkedIn Queens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css">
+    <script src="queens.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex flex-col min-h-screen h-full gap-16 p-4 items-center">
+        <div class="game-container flex flex-col gap-4 w-96">
+            
+            <!-- Button Containers -->
+            <div id="button-container flex flex-row gap-4 place-content-between">
+                <button type="button" id="solve" class="py-2 px-4 bg-lime-400 rounded-full text-lg border-2">Generate Board</button>
+            </div>
+
+            <!-- Grid For Queens -->
+            <div class="game-grid h-96 w-96 rounded-xl border-4 border-black">
+            </div>
+
+            <!-- Win Notification Prompt -->
+            <div id="win" class="border-2 p-4 rounded-xl bg-lime-100 hidden">
+                <div class="font-bold mb-2">
+                    You won!!!
+                </div>
+                <div>
+                    Congratulations! You have successfully placed all the queens.
+                </div>
+            </div>
+
+            <!-- Lose Notification Prompt -->
+            <div id="lose" class="border-2 p-4 rounded-xl bg-red-100 hidden">
+                <div class="font-bold mb-2">
+                    The queens are not placed correctly.
+                </div>
+                <div>
+                    You have placed the queens incorrectly. Please try again.
+                </div>
+            </div>
+
+            <!-- How To Play -->
+            <div class="border-2 p-4 rounded-xl">
+                <div class="font-bold mb-2">
+                    How To Play
+                </div>
+                <div class="mb-2">
+                    1. Your goal is to have <b>exactly one Q</b> in each <b>row, column, and color region.</b>
+                </div>
+                <div class="mb-2">
+                    2. Tap once to place X and tap twice to place Q. Use X to mark where Q cannot be placed.
+                </div>
+                <div class="mb-2">
+                    3. Two Q cannot touch each other, not even diagonally.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- Your HTML content goes here -->
+    <script src="index.js"></script>
+</body>
+</html>
