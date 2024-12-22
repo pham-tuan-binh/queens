@@ -23,6 +23,8 @@ This command:
 
 ## Performance
 
+![](./perf.webp)
+
 You can check the performance of the WASM module here: [Performance Data](https://docs.google.com/spreadsheets/d/1HILsm0HFwCFg3fcJZsbkoS-D1vmgTNDo0d72eIXRJWA/edit?usp=sharing).
 
 ## Web File Location
