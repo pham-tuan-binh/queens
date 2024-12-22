@@ -1,15 +1,11 @@
 :root {
-    --cols: 9;
-    --rows: 9;
-}
-
-.game-container {
+    --boardwidth: 10;
 }
 
 .game-grid {
     display: grid;
-    grid-template-columns: repeat(var(--cols), 1fr);
-    grid-template-rows: repeat(var(--rows), 1fr);
+    grid-template-columns: repeat(var(--boardwidth), 1fr);
+    grid-template-rows: repeat(var(--boardwidth), 1fr);
     aspect-ratio: 1;
     gap: 1px;
     background-color: black;

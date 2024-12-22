@@ -395,9 +395,8 @@ int main()
     // int32_t **board;
     // int32_t boardWidth = 8;
 
-    //
-    printf("Hello, World!\n");
-    srand(time(NULL));
+    // printf("Hello, World!\n");
+    // srand(time(NULL));
 
     // // Initialize the board
     // initializeBoard(&board, boardWidth);
