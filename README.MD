@@ -2,6 +2,8 @@
 
 This project recreates the Queens game from LinkedIn using WebAssembly (WASM).
 
+You can play the game on [Github Pages](https://pham-tuan-binh.github.io/queens/)
+
 ## Requirements
 
 - Emscripten SDK (emsdk) to compile C code to WebAssembly.
